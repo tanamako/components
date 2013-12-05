@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/A13081/.nvm/v0.8.20/bin/node',
+1 verbose cli   '/Users/A13081/.nvm/v0.8.20/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-karma',
+1 verbose cli   'karma-ng-html2js-preprocessor',
+1 verbose cli   'karma-ng-scenario',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose read json /Users/A13081/dev2/Dropbox/component/component/package.json
+5 warn package.json component@0.0.0 No README.md file found!
+6 verbose from cache /Users/A13081/dev2/Dropbox/component/component/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-karma', null ]
+9 verbose cache add name=undefined spec="grunt-karma" args=["grunt-karma",null]
+10 verbose parsed url { pathname: 'grunt-karma',
+10 verbose parsed url   path: 'grunt-karma',
+10 verbose parsed url   href: 'grunt-karma' }
+11 verbose cache add [ 'karma-ng-html2js-preprocessor', null ]
+12 verbose cache add name=undefined spec="karma-ng-html2js-preprocessor" args=["karma-ng-html2js-preprocessor",null]
+13 verbose parsed url { pathname: 'karma-ng-html2js-preprocessor',
+13 verbose parsed url   path: 'karma-ng-html2js-preprocessor',
+13 verbose parsed url   href: 'karma-ng-html2js-preprocessor' }
+14 verbose cache add [ 'karma-ng-scenario', null ]
+15 verbose cache add name=undefined spec="karma-ng-scenario" args=["karma-ng-scenario",null]
+16 verbose parsed url { pathname: 'karma-ng-scenario',
+16 verbose parsed url   path: 'karma-ng-scenario',
+16 verbose parsed url   href: 'karma-ng-scenario' }
+17 silly lockFile 707ccff9-grunt-karma grunt-karma
+18 verbose lock grunt-karma /Users/A13081/.npm/707ccff9-grunt-karma.lock
+19 silly lockFile 18de6d31-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor
+20 verbose lock karma-ng-html2js-preprocessor /Users/A13081/.npm/18de6d31-karma-ng-html2js-preprocessor.lock
+21 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+22 verbose lock karma-ng-scenario /Users/A13081/.npm/e5bca250-karma-ng-scenario.lock
+23 silly lockFile 707ccff9-grunt-karma grunt-karma
+24 silly lockFile 18de6d31-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor
+25 verbose addNamed [ 'grunt-karma', '' ]
+26 verbose addNamed [ null, '' ]
+27 silly lockFile 94531edb-grunt-karma grunt-karma@
+28 verbose lock grunt-karma@ /Users/A13081/.npm/94531edb-grunt-karma.lock
+29 verbose addNamed [ 'karma-ng-html2js-preprocessor', '' ]
+30 verbose addNamed [ null, '' ]
+31 silly lockFile 9f59274a-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor@
+32 verbose lock karma-ng-html2js-preprocessor@ /Users/A13081/.npm/9f59274a-karma-ng-html2js-preprocessor.lock
+33 silly lockFile e5bca250-karma-ng-scenario karma-ng-scenario
+34 verbose addNamed [ 'karma-ng-scenario', '' ]
+35 verbose addNamed [ null, '' ]
+36 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+37 verbose lock karma-ng-scenario@ /Users/A13081/.npm/4f100e2f-karma-ng-scenario.lock
+38 silly lockFile 94531edb-grunt-karma grunt-karma@
+39 silly lockFile 9f59274a-karma-ng-html2js-preprocessor karma-ng-html2js-preprocessor@
+40 silly lockFile 4f100e2f-karma-ng-scenario karma-ng-scenario@
+41 error Error: EACCES, open '/Users/A13081/.npm/94531edb-grunt-karma.lock'
+41 error  { [Error: EACCES, open '/Users/A13081/.npm/94531edb-grunt-karma.lock']
+41 error   errno: 3,
+41 error   code: 'EACCES',
+41 error   path: '/Users/A13081/.npm/94531edb-grunt-karma.lock' }
+42 error Please try running this command again as root/Administrator.
+43 error System Darwin 12.5.0
+44 error command "/Users/A13081/.nvm/v0.8.20/bin/node" "/Users/A13081/.nvm/v0.8.20/bin/npm" "install" "grunt-karma" "karma-ng-html2js-preprocessor" "karma-ng-scenario" "--save-dev"
+45 error cwd /Users/A13081/dev2/Dropbox/component/component
+46 error node -v v0.8.20
+47 error npm -v 1.2.11
+48 error path /Users/A13081/.npm/94531edb-grunt-karma.lock
+49 error code EACCES
+50 error errno 3
+51 error stack Error: EACCES, open '/Users/A13081/.npm/94531edb-grunt-karma.lock'
+52 verbose exit [ 3, true ]
