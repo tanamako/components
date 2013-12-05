@@ -6,9 +6,9 @@ Yeoman
 
 http://yeoman.io/
 
-YO
-GRUNT
-BOWER
+* YO
+* GRUNT
+* BOWER
 
 Angular
 ---------------
