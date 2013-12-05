@@ -1,4 +1,4 @@
-フロントエンドコンポーネント
+Frontend Develop Setting
 =====================
 
 Yeoman
